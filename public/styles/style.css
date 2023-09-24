@@ -3,8 +3,11 @@
 }
 
 body {
-  background-color: #131313;
+  background: url('/assets/background.png') no-repeat;
+  background-size: cover;
+  background-position: bottom center;
   color: #ffffff;
+  height: 1601px;
 }
 
 #app {
@@ -48,16 +51,22 @@ nav {
   border-image-slice: 60 10;
 }
 
+header > img {
+  position: absolute;
+  margin-top: -43px;
+  width: 90px;
+  height: 15px;
+  margin-left: 1133px;
+}
+
 /* === SAMPLES === */
 
 .samples {
   display: flex;
   flex-direction: column;
-
-
 }
 
-.samples > h1{
+.samples > h1 {
   display: flex;
   width: 596px;
 
@@ -74,6 +83,16 @@ nav {
   margin-top: 100px;
 }
 
+.samples > h1 > span {
+  width: 182.508px;
+  height: 133.5px;
+  background-image: url('/assets/corrente.svg');
+
+  position: absolute;
+  margin-left: 127px;
+  margin-top: 11px;
+}
+
 .samples > .powered > p {
   font-family: Gotham;
 
@@ -87,10 +106,22 @@ nav {
 
 .samples > .powered {
   margin-top: 60px;
-
+  display: flex;
+  flex-direction: column;
   width: 1220px;
   border-bottom: 1px solid white;
 }
+
+.powered > span {
+  background: url('/assets/star.svg') no-repeat;
+  width: 201.898px;
+  height: 257.225px;
+  position: absolute;
+  margin-top: -34px;
+  margin-left: 1045px;
+}
+
+/* === CARDS === */
 
 .cards {
   display: flex;
@@ -105,9 +136,31 @@ nav {
   height: 225px;
   background-color: #393939;
 
+  display: flex;
+  align-items: flex-end;
+
   border-radius: 25px;
 
   cursor: pointer;
+}
+
+.cards > .mini-card > p {
+  font-family: Gotham;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+  letter-spacing: -0.48px;
+  margin-left: 20px;
+}
+
+.cards > .mini-card > img {
+  width: 20px;
+  height: 20px;
+
+  margin-left: 27px;
+  margin-bottom: 14px;
 }
 
 .cards > .big-card {
@@ -115,6 +168,114 @@ nav {
   height: 535px;
   background-color: #393939;
 
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  
   border-radius: 25px;
   cursor: pointer;
+}
+
+.cards > .big-card > .footer {
+  display: flex;
+  align-items: flex-end;
+}
+
+.cards > .big-card > .footer > p {
+  font-family: Gotham;
+  font-size: 16px;
+  font-style: normal;
+
+  font-weight: 700;
+  line-height: 58.7%;
+
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+
+  margin-left: 20px;
+  margin-bottom: 34px;
+}
+
+.cards > .big-card > .footer > img {
+  width: 32px;
+  height: 32px;
+
+  margin-left: 27px;
+  margin-bottom: 24px;
+}
+
+.cards > .big-card > img {
+  width: 135px;
+  height: 135px;
+
+  align-self: center;
+  margin-bottom: 133px;
+}
+
+/* === DOWNLOAD GUIDE === */
+
+.download-guide {
+  display: flex;
+  margin-top: 90px;
+}
+
+.download-guide > .content > h1 {
+  margin-bottom: 103px;
+  margin-left: -7px;
+  font-family: Bebas Neue;
+  font-size: 196px;
+
+  font-weight: 400;
+  line-height: 0%;
+  letter-spacing: -5.88px;
+}
+
+.download-guide > .content > h3 {
+  font-family: Gotham;
+  font-size: 28px;
+  font-weight: 400;
+
+  letter-spacing: -0.84px;
+}
+
+.download-guide > .content > p {
+  width: 509px;
+  height: 166px;
+
+  font-family: Gotham;
+  font-size: 18px;
+
+  line-height: 156.7%;
+  letter-spacing: 0.27px;
+
+  margin-top: -12px;
+}
+
+.download-guide > .content > a {
+  width: 328px;
+  height: 70px;
+  margin-top: -15px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: #FF4747;
+  border: none;
+  border-radius: 23px;
+
+  font-family: Gotham;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.78px;
+}
+
+.download-guide > img {
+  width: 479.988px;
+  height: 460.988px;
+  position: absolute;
+  margin-left: 706px;
+  margin-top: 48px;
 }

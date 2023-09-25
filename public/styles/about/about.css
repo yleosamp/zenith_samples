@@ -1,0 +1,162 @@
+body {
+  background: url('/assets/about/background.png') no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  color: #ffffff;
+  height: 1601px;
+}
+
+/* === TEXTOS === */
+
+.sobre {
+  display: flex;
+  flex-direction: column;
+
+
+  margin-right: 200px;
+
+  margin-top: 120px;
+}
+
+.sobre > .texts {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.sobre > .texts > h1 {
+  font-family: Bebas Neue;
+  font-size: 141px;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  font-weight: 400;
+  line-height: 80.7%;
+  letter-spacing: -4.23px;
+
+  margin-bottom: 35px;
+}
+
+.sobre > .texts > h1 > img {
+  margin-bottom: 20px;
+}
+
+.sobre > .texts >  p {
+  width: 377px;
+  font-family: Gotham;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 128.2%;
+  letter-spacing: -0.63px;
+}
+
+/* === IMAGEM === */
+
+.sobre > .img {
+  margin-left: 673px;
+
+  margin-top: -684px;
+}
+
+.sobre > .img > img {
+  width: 370px;
+  height: 370px;
+
+  border-radius: 26px;
+}
+
+.sobre > .img  > p {
+  display: flex;
+  font-family: Gotham;
+  font-size: 16px;
+
+  font-weight: 400;
+  letter-spacing: -0.48px;
+
+  margin-top: 30px;
+  gap: 10px;
+}
+
+/* === VERTICAL LINE === */
+
+.sobre > .texts > img {
+  margin-left: 166px;
+  margin-top: 20px;
+}
+
+/* === CONTATOS === */
+
+.sobre > .contatos > h1 {
+  font-family: Bebas Neue;
+  font-size: 141px;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  font-weight: 400;
+  line-height: 80.7%;
+  letter-spacing: -4.23px;
+
+  margin-bottom: 35px;
+}
+
+.sobre > .contatos {
+  margin-top: 250px;
+}
+
+.sobre > .contatos > .redes {
+  display: flex;
+  gap: 12px;
+}
+
+.sobre > .contatos > .redes .info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.sobre > .contatos > .redes p {
+  color: #FFF;
+  font-family: Gotham;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.sobre > .contatos > .redes img {
+  width: 34px;
+  height: 34px;
+}
+
+/* === FOTOS === */
+
+.contatos > .photos {
+  margin-left: 571px;
+  margin-top: -398px;
+  position: absolute;
+  display: flex;
+}
+
+.contatos > .photos > .astro {
+  width: 315px;
+  height: 392px;
+
+  margin-right: 13px;
+
+  background-color: #393939;
+  border-radius: 35px;
+}
+
+.contatos > .photos > .yleo {
+  width: 315px;
+  height: 392px;
+
+  background-color: #393939;
+  
+  border-radius: 35px;
+  margin-top: 62px;
+}

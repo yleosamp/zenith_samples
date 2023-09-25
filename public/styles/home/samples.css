@@ -1,0 +1,61 @@
+/* === SAMPLES === */
+
+.samples {
+  display: flex;
+  flex-direction: column;
+}
+
+.samples > h1 {
+  display: flex;
+  width: 596px;
+
+  font-family: Bebas Neue;
+  font-size: 141px;
+
+  font-weight: 400;
+  line-height: 80.7%;
+  letter-spacing: -4.23px;
+  
+  align-items: start;
+  justify-content: start;
+
+  margin-top: 100px;
+}
+
+.samples > h1 > span {
+  width: 182.508px;
+  height: 133.5px;
+  background-image: url('/assets/corrente.svg');
+
+  position: absolute;
+  margin-left: 127px;
+  margin-top: 11px;
+}
+
+.samples > .powered > p {
+  font-family: Gotham;
+
+  font-size: 16px;
+  font-style: normal;
+
+  font-weight: 400;
+  letter-spacing: -0.48px;
+  margin-bottom: 40px;
+}
+
+.samples > .powered {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 1220px;
+  border-bottom: 1px solid white;
+}
+
+.powered > span {
+  background: url('/assets/star.svg') no-repeat;
+  width: 201.898px;
+  height: 257.225px;
+  position: absolute;
+  margin-top: -34px;
+  margin-left: 1045px;
+}

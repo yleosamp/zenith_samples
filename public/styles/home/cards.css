@@ -1,0 +1,91 @@
+/* === CARDS === */
+
+.cards {
+  display: flex;
+  align-items: flex-end;
+  gap: 11px;
+
+  margin-top: -340px;
+}
+
+.cards > .mini-card {
+  width: 321px;
+  height: 225px;
+  background-color: #393939;
+
+  display: flex;
+  align-items: flex-end;
+
+  border-radius: 25px;
+
+  cursor: pointer;
+}
+
+.cards > .mini-card > p {
+  font-family: Gotham;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+  letter-spacing: -0.48px;
+  margin-left: 20px;
+}
+
+.cards > .mini-card > img {
+  width: 20px;
+  height: 20px;
+
+  margin-left: 27px;
+  margin-bottom: 14px;
+}
+
+.cards > .big-card {
+  width: 561px;
+  height: 535px;
+  background-color: #393939;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.cards > .big-card > .footer {
+  display: flex;
+  align-items: flex-end;
+}
+
+.cards > .big-card > .footer > p {
+  font-family: Gotham;
+  font-size: 16px;
+  font-style: normal;
+
+  font-weight: 700;
+  line-height: 58.7%;
+
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+
+  margin-left: 20px;
+  margin-bottom: 34px;
+}
+
+.cards > .big-card > .footer > img {
+  width: 32px;
+  height: 32px;
+
+  margin-left: 27px;
+  margin-bottom: 24px;
+}
+
+.cards > .big-card > img {
+  width: 135px;
+  height: 135px;
+
+  align-self: center;
+  margin-bottom: 133px;
+}
